@@ -1,9 +1,15 @@
 <script>
 import AppJumbotron from './AppJumbotron.vue';
+import AppCrossfitVideosSection from './AppCrossfitVideosSection.vue';
+import AppPartnerSection from './AppPartnerSection.vue'
 
 export default {
     name: "AppMain",
-    components: { AppJumbotron }
+    components: { 
+        AppJumbotron,
+        AppCrossfitVideosSection, 
+        AppPartnerSection
+    }
 }
 
 </script>
@@ -14,6 +20,10 @@ export default {
     <main>
 
         <AppJumbotron/>
+
+        <AppPartnerSection/>
+
+        <AppCrossfitVideosSection/>
 
     </main>
 
