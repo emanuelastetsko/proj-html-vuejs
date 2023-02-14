@@ -1,7 +1,9 @@
 <script>
+import AppJumbotron from './AppJumbotron.vue';
 
 export default {
-    name: 'AppMain',
+    name: "AppMain",
+    components: { AppJumbotron }
 }
 
 </script>
@@ -11,7 +13,7 @@ export default {
 
     <main>
 
-        MAIN
+        <AppJumbotron/>
 
     </main>
 

@@ -1,1 +1,55 @@
 @import "partials/reset.scss";
+@import "partials/variables.scss";
+
+/* BODY */
+.my-container{
+    margin: 0 auto;
+    width: 80vw;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.my-button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 0.8em;
+}
+
+.trasparent-button{
+    background: local;
+    color: $grey;
+    border: 1px solid $grey;
+}
+
+.bg-blue{
+    background-color: $blue;
+    border: 1px solid $blue;
+    color: white;
+}
+
+.red-text{
+    color: $red;
+}
+
+.grey-text{
+    color: $grey;
+}
+
+/* HEADER */
+header{
+    background-color: $black;
+}
+
+
