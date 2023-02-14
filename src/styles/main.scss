@@ -8,6 +8,11 @@
     width: 80vw;
 }
 
+.my-container-special{
+    margin: 0 auto;
+    width: 50vw;
+}
+
 ul{
     list-style: none;
 }
@@ -49,6 +54,10 @@ a{
 
 .blue-text{
     color: $blue;
+}
+
+.yellow-text{
+    color: $yellow;
 }
 
 .black-text{
