@@ -1,5 +1,6 @@
 @import "partials/reset.scss";
 @import "partials/variables.scss";
+@import "node_modules/bootstrap/scss/bootstrap";
 
 /* BODY */
 .my-container{
@@ -47,9 +48,26 @@ a:hover{
     color: $grey;
 }
 
+.white-text{
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+
 /* HEADER */
 header{
     background-color: $black;
 }
 
+
+/* FOOTER */
+footer{
+    background-color: $black;
+}
+
+hr{
+    color: $grey;
+}
 
