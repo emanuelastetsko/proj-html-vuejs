@@ -1,5 +1,6 @@
 <script>
 import AppJumbotron from './AppJumbotron.vue';
+import AppMailingListSubscriptionSectionVue from './AppMailingListSubscriptionSection.vue';
 import AppArticlesSection from './AppArticlesSection.vue';
 import AppSubscriptionSection from './AppSubscriptionSection.vue'
 import AppPartnerSection from './AppPartnerSection.vue';
@@ -10,6 +11,7 @@ export default {
     name: "AppMain",
     components: { 
         AppJumbotron,
+        AppMailingListSubscriptionSectionVue,
         AppArticlesSection,
         AppSubscriptionSection,
         AppPartnerSection,
@@ -26,6 +28,8 @@ export default {
 
         <AppJumbotron/>
 
+        <AppMailingListSubscriptionSectionVue/>
+        
         <AppArticlesSection/>
 
         <AppSubscriptionSection/>

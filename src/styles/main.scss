@@ -76,8 +76,33 @@ a{
     text-align: center;
 }
 
+.blue-borders{
+    border: 3px solid $blue;
+    border-radius: 5px;
+}
+
 /* HEADER */
 header{
+    background-color: $black;
+}
+
+
+/* MAIN */
+input{
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 0.8em;
+    border: 1px solid $black;
+    width: 70%;
+    margin-right: 20px;
+
+}
+
+.mailing-list-section{
+    background-color: $black;
+}
+
+.mailing-list-bottom{
     background-color: $black;
 }
 
