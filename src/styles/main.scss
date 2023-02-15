@@ -48,6 +48,12 @@ a{
     color: white;
 }
 
+.bg-red{
+    background-color: $red;
+    border: 1px solid $red;
+    color: white;
+}
+
 .red-text{
     color: $red;
 }

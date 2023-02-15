@@ -19,7 +19,7 @@ export default {
             </div>
         </div>
         <div class="motivational-section">
-            <div class="my-container">
+            <div class="my-container my-cards">
                 <div class="row">
                     <div class="col-4 my-card">
                         <img src="../assets/img/service6-2x.jpg" alt="First image" class="card-img">
@@ -57,6 +57,53 @@ export default {
                 </div>
             </div>
         </div>
+        <div class="youtube-section">
+            <div class="youtube-section-top">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="../assets/img/service15-2x.jpg" alt="Video preview" class="big-video-preview">
+                    </div>
+                    <div class="col-6 py-5 px-5">
+                        <h5 class="blue-text">Tune up your workouts</h5>
+                        <h3>The best healt & fitness advice online</h3>
+                        <div class="youtube-channel-info">
+                            <img src="../assets/img/unnamed.jpg" alt="Channel image" class="logo-channel">
+                            <span class="grey-text px-2">ThemeFusion</span>
+                        </div>
+                        <p class="grey-text">Arcu eu facilisi ut quisque placerat nunc habitant. Magna semper mauris, venenatis, leo integer sit pellentesque.</p>
+                        <button class="my-button bg-red">Visit my YouTube channel</button>
+                    </div>
+                </div>
+            </div>
+            <div class="youtube-section-bottom">
+                <div class="my-container">
+                    <div class="description">
+                        <h6>Featured playlist</h6>
+                        <a href="#" class="black-text">View all videos ></a>
+                    </div>
+                    <div class="videos-preview pb-5">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="../assets/img/video2-2x.jpg" alt="Blog 1" class="video-preview">
+                                <h5 class="text-center">Thighs & glute workout</h5>
+                                <p class="blue-text text-center">Increase your mobility</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="../assets/img/video7-2x.jpg" alt="Blog 2" class="video-preview">
+                                <h5 class="text-center">Ultimate cardio workout</h5>
+                                <p class="blue-text text-center">By admin | November 26th, 2019 | Gym</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="../assets/img/video9-2x.jpg" alt="Blog 3" class="video-preview">
+                                <h5 class="text-center">New juices available now</h5>
+                                <p class="blue-text text-center">By admin | November 26th, 2019 | Gym</p>
+                            </div>
+                </div>
+            </div>
+        </div>
+
+            </div>
+        </div>
     </div>
 
 </template>
@@ -77,7 +124,7 @@ export default {
 
 .motivational-section{
     background: rgb(29,31,255);
-    background: linear-gradient(121deg, rgba(29,31,255,1) 0%, rgba(255,14,45,1) 100%);  
+    background: linear-gradient(121deg, rgba(29,31,255,1) 0%, rgba(255,14,45,1) 100%); 
 }
 
 h5{
@@ -119,5 +166,25 @@ button{
     padding: 0;
 }
 
+.description{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-video-preview{
+    width: 100%;
+    height: auto;
+}
+
+.video-preview{
+    width: 500px;
+    height: auto;
+}
+
+.logo-channel{
+    width: 50px;
+}
 
 </style>
