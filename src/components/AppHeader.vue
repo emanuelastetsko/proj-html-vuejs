@@ -12,9 +12,9 @@ export default {
 
     <header>
 
-        <div class="container my-container">
+        <div class="my-container">
             <div class="logo">
-                <img src="../assets/img/logo-200x34.png" alt="">
+                <img src="../assets/img/logo-200x34.png" alt="Logo">
             </div>
             <div class="nav-bar">
                 <ul>
