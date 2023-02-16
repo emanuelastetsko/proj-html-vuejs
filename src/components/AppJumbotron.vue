@@ -21,24 +21,21 @@ export default {
         <div class="motivational-section">
             <div class="my-container my-cards">
                 <div class="row my-row">
-                    <div class="col-4 my-card">
-                        <img src="../assets/img/service6-2x.jpg" alt="First image" class="card-img">
+                    <div class="col-4 my-card image-1">
                         <div class="text-card">
                             <span class="white-text d-block">!Ondulina!</span>
                             <h5 class="white-text">Crossfit workout</h5>
                             <h6 class="yellow-text">Push your limits</h6>
                         </div>
                     </div>
-                    <div class="col-4 my-card">
-                        <img src="../assets/img/box1-2x.jpg" alt="Second image" class="card-img">
+                    <div class="col-4 my-card image-2">
                         <div class="text-card">
                             <span class="white-text d-block">!Ondulina!</span>
                             <h5 class="white-text">New gym apparel</h5>
                             <h6 class="yellow-text">Look good, feel good</h6>
                         </div>
                     </div>
-                    <div class="col-4 my-card">
-                        <img src="../assets/img/box3-2x.jpg" alt="Third image" class="card-img">
+                    <div class="col-4 my-card image-3">
                         <div class="text-card">
                             <span class="white-text d-block">!Ondulina!</span>
                             <h5 class="white-text">Team training</h5>
@@ -145,14 +142,32 @@ button{
     margin-right: 10px;
 }
 
+.image-1{
+    background-image: linear-gradient(0deg, rgba(34, 33, 33, 0.5) 39%, rgba(0,0,0,0) 100%), url(../assets/img/service6-2x.jpg);
+    background-size: cover;
+}
+
+.image-2{
+    background-image: linear-gradient(0deg, rgba(34, 33, 33, 0.5) 39%, rgba(0,0,0,0) 100%), url(../assets/img/box1-2x.jpg);
+    background-size: cover;
+    margin: 0 60px;
+}
+
+.image-3{
+    background-image: linear-gradient(0deg, rgba(34, 33, 33, 0.5) 39%, rgba(0,0,0,0) 100%), url(../assets/img/box3-2x.jpg);;
+    background-size: cover;
+}
+
 .card-img{
     width: 100%;
     height: auto;
 }
 
 .my-card{
-    position: relative;
     margin-top: -50px;
+    width: calc((100% / 3) - 40px);
+    height: 500px;
+    position: relative;
 }
 
 .text-card{
