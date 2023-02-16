@@ -2,6 +2,12 @@
 
 export default {
     name: 'AppFooter',
+    props: {
+        linksFooterList: {
+            type: Array,
+            default: []
+        }
+    }
 }
 
 </script>
@@ -29,20 +35,8 @@ export default {
                         <li>
                             <h6 class="py-2">RECENT POSTS</h6>
                         </li>
-                        <li class="pb-2">
-                            <a href="#">> The best protein shake</a>
-                        </li>
-                        <li class="pb-2">
-                            <a href="#">> Ultimate cardio workout</a>
-                        </li>
-                        <li class="pb-2">
-                            <a href="#">> New juices availoable now</a>
-                        </li>
-                        <li class="pb-2">
-                            <a href="#">> Tips to find training partners</a>
-                        </li>
-                        <li class="pb-2">
-                            <a href="#">> 20 best healty recipes</a>
+                        <li class="pb-2" v-for="link in linksFooterList">
+                            <a :href="link.url">{{ link.name }}</a>
                         </li>
                     </ul>
                 </div>

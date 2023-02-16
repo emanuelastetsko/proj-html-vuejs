@@ -24,13 +24,16 @@ export default {
             <div class="nav-bar">
                 <ul>
                     <li v-for="link in linksHeaderList">
-                        <a :href="link.url">{{ link.name }}</a>
+                        <a :href="link.url" class="grey-text">{{ link.name }}</a>
                     </li>
                     <li>
-                        <a href="#">!!Carello!!</a>
+                        <button class="bg-blue my-button">Schedule a workout</button>
                     </li>
                     <li>
-                        <a href="#">!!Ricerca!!</a>
+                        <a href="#" class="grey-text">!!Carello!!</a>
+                    </li>
+                    <li>
+                        <a href="#" class="grey-text">!!Ricerca!!</a>
                     </li>
                 </ul>
             </div>

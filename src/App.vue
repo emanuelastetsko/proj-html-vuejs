@@ -15,28 +15,50 @@ export default {
     return {
       linksHeader: [
         {
-            name: 'Home',
-            url: '#',
+          name: 'Home',
+          url: '#',
         },
         {
-            name: 'Services',
-            url: '#',
+          name: 'Services',
+          url: '#',
         },
         {
-            name: 'About',
-            url: '#',
+          name: 'About',
+          url: '#',
         },
         {
-            name: 'Videos',
-            url: '#',
+          name: 'Videos',
+          url: '#',
         },
         {
-            name: 'Blog',
-            url: '#',
+          name: 'Blog',
+          url: '#',
         },
         {
-            name: 'Store',
-            url: '#',
+          name: 'Store',
+          url: '#',
+        },
+      ], 
+      linksFooter: [
+        {
+          name: '> The best protein shake',
+          url: '#',
+        },
+        {
+          name: '> Ultimate cardio workout',
+          url: '#',
+        },
+        {
+          name: '> New juices available now',
+          url: '#',
+        },
+        {
+          name: '> Tips to find training partners',
+          url: '#',
+        },
+        {
+          name: '> 20 best healthy recipes',
+          url: '#',
         },
       ]   
     }
@@ -51,7 +73,7 @@ export default {
 
   <AppMain/>
 
-  <AppFooter/>
+  <AppFooter :linksFooterList="linksFooter"/>
   
 </template>
 
