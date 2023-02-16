@@ -52,7 +52,7 @@ export default {
                 <span class="yellow-text">!Ondulina!</span>
                 <div class="user-info pt-4 pb-5">
                     <img src="../assets/img/avatar-1-2x.jpg" alt="Profile pic" class="profile-pic">
-                    <span class="p-3">Brad Johnson</span>
+                    <span class="p-3 white-text">Brad Johnson</span>
                     <span class="grey-text">Las Vegas</span>
                 </div>
             </div>
@@ -161,8 +161,8 @@ button{
 
 .profile-pic{
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     padding: 0;
 }
 

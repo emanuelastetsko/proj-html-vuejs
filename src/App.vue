@@ -10,6 +10,36 @@ export default {
     AppHeader,
     AppMain,
     AppFooter
+  },
+  data(){
+    return {
+      linksHeader: [
+        {
+            name: 'Home',
+            url: '#',
+        },
+        {
+            name: 'Services',
+            url: '#',
+        },
+        {
+            name: 'About',
+            url: '#',
+        },
+        {
+            name: 'Videos',
+            url: '#',
+        },
+        {
+            name: 'Blog',
+            url: '#',
+        },
+        {
+            name: 'Store',
+            url: '#',
+        },
+      ]   
+    }
   }
 }
 
@@ -17,7 +47,7 @@ export default {
 
 <template>
 
-  <AppHeader/>
+  <AppHeader :linksHeaderList="linksHeader"/>
 
   <AppMain/>
 

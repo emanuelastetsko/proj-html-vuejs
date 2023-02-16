@@ -1,7 +1,12 @@
 <script>
-
 export default {
     name: 'AppHeader',
+    props: {
+        linksHeaderList: {
+            type: Array,
+            default: []
+        }
+    }
 }
 
 </script>
@@ -18,26 +23,8 @@ export default {
             </div>
             <div class="nav-bar">
                 <ul>
-                    <li>
-                        <a href="#" class="grey-text">Home</a>
-                    </li>
-                    <li>
-                        <a href="#" class="grey-text">Services</a>
-                    </li>
-                    <li>
-                        <a href="#" class="grey-text">About</a>
-                    </li>
-                    <li>
-                        <a href="#" class="grey-text">Videos</a>
-                    </li>
-                    <li>
-                        <a href="#" class="grey-text">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#" class="grey-text">Store</a>
-                    </li>
-                    <li>
-                        <button class="bg-blue my-button">Schedule a workout</button>
+                    <li v-for="link in linksHeaderList">
+                        <a :href="link.url">{{ link.name }}</a>
                     </li>
                     <li>
                         <a href="#">!!Carello!!</a>
