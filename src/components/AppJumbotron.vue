@@ -20,7 +20,7 @@ export default {
         </div>
         <div class="motivational-section">
             <div class="my-container my-cards">
-                <div class="row">
+                <div class="row my-row">
                     <div class="col-4 my-card">
                         <img src="../assets/img/service6-2x.jpg" alt="First image" class="card-img">
                         <div class="text-card">
@@ -125,6 +125,7 @@ export default {
 .motivational-section{
     background: rgb(29,31,255);
     background: linear-gradient(121deg, rgba(29,31,255,1) 0%, rgba(255,14,45,1) 100%); 
+    padding-bottom: 100px;
 }
 
 h5{
@@ -151,6 +152,7 @@ button{
 
 .my-card{
     position: relative;
+    margin-top: -50px;
 }
 
 .text-card{
@@ -176,6 +178,7 @@ button{
 .big-video-preview{
     width: 100%;
     height: auto;
+    margin-top: -70px;
 }
 
 .youtube-channel{
