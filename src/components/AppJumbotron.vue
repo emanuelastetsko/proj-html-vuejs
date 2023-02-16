@@ -9,10 +9,10 @@ export default {
 <template>
     <div class="first-big-section">
         <div class="jumbotron">
-            <div class="jumbotron-text my-container">
+            <div class="jumbotron-text my-container fs-4">
                 <h5 class="red-text">Certified fitness professionals</h5>
                 <h2>Take control of your health</h2>
-                <span>ondulina</span>
+                <span class="yellow-text">!!Ondulina!!</span>
                 <p class="grey-text">Curabintur non nulla sit amet nisl tempus convallis quis ac lectus dolor sit amet.</p>
                 <button class="bg-blue my-button">++Visit my Youtube channel</button>
                 <button class="trasparent-button my-button">Buy Avada today++</button>
@@ -63,15 +63,15 @@ export default {
                     <div class="col-6">
                         <img src="../assets/img/service15-2x.jpg" alt="Video preview" class="big-video-preview">
                     </div>
-                    <div class="col-6 py-5 px-5">
+                    <div class="col-6 py-5 px-5 fs-3 youtube-channel">
                         <h5 class="blue-text">Tune up your workouts</h5>
-                        <h3>The best healt & fitness advice online</h3>
+                        <h2 class="fs-1">The best healt & fitness advice online</h2>
                         <div class="youtube-channel-info">
                             <img src="../assets/img/unnamed.jpg" alt="Channel image" class="logo-channel">
                             <span class="grey-text px-2">ThemeFusion</span>
                         </div>
                         <p class="grey-text">Arcu eu facilisi ut quisque placerat nunc habitant. Magna semper mauris, venenatis, leo integer sit pellentesque.</p>
-                        <button class="my-button bg-red">Visit my YouTube channel</button>
+                        <button class="my-button bg-red youtube-button">Visit my YouTube channel</button>
                     </div>
                 </div>
             </div>
@@ -111,9 +111,9 @@ export default {
 <style lang="scss" scoped>
 
 .jumbotron{
-    background-image: url("../assets/img/slider82x-scaled.jpg");
+    background-image: linear-gradient(90deg, rgb(4, 5, 15) 39%, rgba(6,6,7,0) 100%), url("../assets/img/slider82x-scaled.jpg");
     background-size: cover;
-    min-height: 500px;
+    min-height: 700px;
     display: flex;
     align-items: center;
 
@@ -176,6 +176,16 @@ button{
 .big-video-preview{
     width: 100%;
     height: auto;
+}
+
+.youtube-channel{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.youtube-button{
+    width: 50%;
 }
 
 .video-preview{

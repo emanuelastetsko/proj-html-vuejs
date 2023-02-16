@@ -9,7 +9,7 @@ export default {
 <template>
 
     <div class="subscription-section">
-        <div class="my-container-special text-center">
+        <div class="my-container-special text-center fs-5">
             <h2 class="white-text">"I've failed over and over again in my life. And that is why I succeed."</h2>
             <span class="yellow-text">!Ondulina!</span>
             <p class="white-text py-3">Arcu auctor nisl, congue sit nisi tincidunt eget proin. In lacinia lacus donec sed massa in ipsum eros, tristique. Gravida suspendisse etiam in iaculis</p>
@@ -22,9 +22,9 @@ export default {
 <style lang="scss" scoped>
 
 .subscription-section{
-    background-image: url(../assets/img/banner2-2x.jpg);
+    background-image: linear-gradient(0deg, rgba(10,12,41, 0.8) 39%, rgba(6,6,7,0) 100%), url(../assets/img/banner2-2x.jpg);
     background-size: cover;
-    min-height: 600px;
+    min-height: 700px;
     display: flex;
     align-items: center;
 }

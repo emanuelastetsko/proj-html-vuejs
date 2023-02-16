@@ -12,7 +12,7 @@ export default {
     <div class="mailing-list-section">
         <div class="mailing-list-top">
             <div class="my-container">
-                <div class="text">
+                <div class="text fs-4">
                     <h4 class="red-text py-2">Join our mailing list today</h4>
                     <h2 class="white-text pb-2">Insider offers & flash sales in your inbox every week.</h2>
                     <span class="yellow-text d-block pb-4">!Ondulina!</span>
@@ -62,7 +62,7 @@ export default {
 <style lang="scss" scoped>
 
 .mailing-list-top{
-    background-image: url(../assets/img/banner1-2x.jpg);
+    background-image: linear-gradient(90deg, rgb(4, 5, 15) 39%, rgba(6,6,7,0) 100%), url(../assets/img/banner1-2x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 700px;
